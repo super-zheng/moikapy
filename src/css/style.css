@@ -1,8 +1,40 @@
-.header-bg {
-  width: 100%;
-  opacity: .75;
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  /* The image used */
+  background-image: url("../img/header-bgv2.PNG");
+  /* Set height */
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .87;
 }
 
-.header-text {
+#goog_info_card {
+  display: none !important;
+}
+
+.d-inline-flex.justify-content-between {
+  width: 100%;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  transform: translate(-50%, -50%);
   color: #fff;
+  opacity: .75;
+  text-align: center;
+}
+
+.hero-text .jumbotron {
+  background-color: transparent;
 }
