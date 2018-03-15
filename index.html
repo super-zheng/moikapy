@@ -14,6 +14,29 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="javascript:void(0)">MOIKApy</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="javascript:void(0)">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="javascript:void(0)">Disabled</a>
+          </li>
+        </ul>
+
+        <gcse:search> </gcse:search>
+      </div>
+    </nav>
+
     <div class="hero-image">
       <div class="container-fluid">
         <div class="">
@@ -22,8 +45,6 @@
               <h1 class="display-3 nopadding">MOIKApy</h1>
               <br>
               <h6 class="container-fluid lead"></h6>
-              <!-- Searchbox END-->
-              <a href="/home"><button class="btn btn-md btn-warning">Enter the Dojo!</button></a>
             </div>
           </div>
         </div>
@@ -33,6 +54,18 @@
     <!-- Scripts -->
     <script src="./src/js/jquery-3.3.1.min.js"></script>
     <script src="./src/js/iakiom.js"></script>
+    <script>
+      (function() {
+        var cx = '004254473424411894975:bhhgqbjiui8';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+
+    </script>
   </body>
 
 </html>
