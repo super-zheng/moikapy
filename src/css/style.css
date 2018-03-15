@@ -16,12 +16,12 @@ html, body {
   display: none !important;
 }
 
+.navbar-brand {
+  width: 100%;
+}
+
 #___gcse_0 {
-  max-height: 27px;
-  margin: 0;
-  padding: 1px;
-  position: absolute;
-  top: 0;
+  padding: 0;
 }
 
 .gsc-control-cse.gsc-control-cse-en {

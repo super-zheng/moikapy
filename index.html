@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navb">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link disabled" href="javascript:void(0)">Home</a>
+            <a class="nav-link" href="javascript:void(0)">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="/about">About</a>
@@ -31,26 +31,27 @@
           <li class="nav-item">
             <a class="nav-link disabled" href="javascript:void(0)">Disabled</a>
           </li>
-        </ul>
+          <li class="nav-item">
 
-        <gcse:search> </gcse:search>
+          </li>
+        </ul>
       </div>
     </nav>
 
     <div class="hero-image">
       <div class="container-fluid">
-        <div class="">
-          <div class=" hero-text">
-            <div class="jumbotron container-fluid nopadding">
-              <h1 class="display-3 nopadding">MOIKApy</h1>
-              <br>
-              <h6 class="container-fluid lead"></h6>
-            </div>
+        <div class=" hero-text">
+          <div class="jumbotron container-fluid nopadding">
+            <h1 class="display-3 nopadding order-1">MOIKApy</h1>
           </div>
         </div>
       </div>
     </div>
-
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
+      <div class="navbar-brand">
+        <gcse:search> </gcse:search>
+      </div>
+    </nav>
     <!-- Scripts -->
     <script src="./src/js/jquery-3.3.1.min.js"></script>
     <script src="./src/js/iakiom.js"></script>
@@ -64,6 +65,9 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(gcse, s);
       })();
+      window.onload = function() {
+        document.getElementById('gsc-i-id1').placeholder = 'Search with MOIKApy';
+      };
 
     </script>
   </body>
