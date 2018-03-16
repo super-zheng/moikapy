@@ -16,12 +16,20 @@ html, body {
   display: none !important;
 }
 
+nav {
+  z-index: 2;
+}
+
 .navbar-brand {
   width: 100%;
 }
 
 #___gcse_0 {
   padding: 0;
+}
+
+.footer .navbar-brand {
+  margin-right: 0;
 }
 
 .gsc-control-cse.gsc-control-cse-en {
@@ -40,11 +48,11 @@ html, body {
   left: 50%;
   margin: 0;
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: .5%;
   transform: translate(-50%, -50%);
   color: #fff;
-  opacity: .75;
   text-align: center;
+  background-color: indigo;
 }
 
 .hero-text .jumbotron {
