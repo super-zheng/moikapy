@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="javascript:void(0)">MOIKApy</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
         <span class="navbar-toggler-icon"></span>
@@ -40,12 +40,13 @@
 
     <div class="hero-image">
       <div class="container-fluid">
-        <div class=" hero-text">
-          <div class="jumbotron container-fluid nopadding">
-            <h1 class="display-3 nopadding order-1">MOIKApy</h1>
+        <div class="hero-wrap">
+          <div class="row">
+            <div id="twitch-embed" class="col-sm-12 twitch"></div>
           </div>
         </div>
       </div>
+    </div>
     </div>
     <!-- searchbar -->
     <nav class="footer navbar fixed-bottom navbar-expand-lg navbar-dark bg-dark">
@@ -54,8 +55,11 @@
       </div>
     </nav>
     <!-- Scripts -->
+
     <script src="./src/js/jquery-3.3.1.min.js"></script>
     <script src="./src/js/iakiom.js"></script>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script src="./src/js/index.js"></script>
     <script>
       (function() {
         var cx = '004254473424411894975:bhhgqbjiui8';

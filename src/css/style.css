@@ -9,7 +9,6 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .87;
 }
 
 #goog_info_card {
@@ -28,6 +27,36 @@ nav {
   padding: 0;
 }
 
+/* Place text in the middle of the image */
+
+.hero-wrap {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  margin: 0;
+  padding: 1% 0;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  background-color: indigo;
+}
+
+.hero-text .jumbotron {
+  background-color: transparent;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.twitch {
+  width: 100vw;
+  height: 75vh;
+  opacity:100;
+}
+
+/* FOOTER ELEMENTs */
+
 .footer .navbar-brand {
   margin-right: 0;
 }
@@ -38,23 +67,4 @@ nav {
 
 .d-inline-flex.justify-content-between {
   width: 100%;
-}
-
-/* Place text in the middle of the image */
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: 0;
-  padding-top: 1%;
-  padding-bottom: .5%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  background-color: indigo;
-}
-
-.hero-text .jumbotron {
-  background-color: transparent;
 }
