@@ -19,10 +19,6 @@ nav {
   z-index: 2;
 }
 
-.navbar-brand {
-  width: 100%;
-}
-
 #___gcse_0 {
   padding: 0;
 }
@@ -31,8 +27,8 @@ nav {
 
 .hero-wrap {
   position: absolute;
-  top: 48%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   margin: 0;
   padding: 1% 0;
   transform: translate(-50%, -50%);
@@ -41,23 +37,19 @@ nav {
   background-color: indigo;
 }
 
-.hero-text .jumbotron {
-  background-color: transparent;
-}
-
-.navbar {
+.footer.navbar {
   padding: 0 1rem;
 }
 
 .twitch {
   width: 100vw;
   height: 75vh;
-  opacity:100;
 }
 
 /* FOOTER ELEMENTs */
 
 .footer .navbar-brand {
+  width: 100%;
   margin-right: 0;
 }
 
@@ -67,4 +59,16 @@ nav {
 
 .d-inline-flex.justify-content-between {
   width: 100%;
+}
+
+@media (max-width:575.98px) {
+  .hero-wrap{
+    top:54.5vh;
+  }
+  .twitch{
+  height: 85vh;
+  }
+  .footer.navbar {
+    display: none;
+  }
 }
