@@ -61,6 +61,8 @@ nav {
   width: 100%;
 }
 
+/* // Small devices (landscape phones, less than 768px) */
+
 @media (max-width:767.98px) {
   .hero-wrap {
     top: 54.5vh;
