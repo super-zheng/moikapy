@@ -1,2 +1,0 @@
-# Import PyGane
-import pygame
