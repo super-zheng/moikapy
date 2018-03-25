@@ -1,22 +1,5 @@
-html, body {
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-  /* The image used */
-  background-image: url("../img/header-bgv2.PNG");
-  /* Set height */
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #goog_info_card {
   display: none !important;
-}
-
-nav {
-  z-index: 2;
 }
 
 #___gcse_0 {
@@ -37,20 +20,9 @@ nav {
   background-color: indigo;
 }
 
-.footer.navbar {
-  padding: 0 1rem;
-}
-
 .twitch {
   width: 100vw;
   height: 70vh;
-}
-
-/* FOOTER ELEMENTs */
-
-.footer .navbar-brand {
-  width: 100%;
-  margin-right: 0;
 }
 
 .gsc-control-cse.gsc-control-cse-en {

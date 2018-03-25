@@ -1,5 +1,14 @@
-body {
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  /* The image used */
+  background-image: url("./img/header-bgv2.PNG");
+  /* Set height */
+  min-height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
