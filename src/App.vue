@@ -33,8 +33,4 @@ html,body,#app{
   background-position: center;
   background-size: cover;
 }
-#twitch h1{
-  padding: 2%;
-  text-align:  center;
-}
 </style>

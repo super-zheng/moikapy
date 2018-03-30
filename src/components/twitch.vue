@@ -31,8 +31,8 @@
   				$('.embed').append(twitchembed);
   				//Twitch Stream Parameters
   				new Twitch.Embed("twitch-embed", {
-  					width: '1200',
-  					height: '600',
+  					width: '100%',
+  					height: '100%',
   					channel: twitchUserName,
   					allowfullscreen: true,
   					theme: 'dark',
@@ -62,15 +62,28 @@
     }
   }
 </script>
-<style scoped>
+<style>
   #twitch{
     background-color: indigo;
-    max-height: 70vh;
-    min-height: 100px;
-    max-width: 100vw;
-    min-width: 100px;
-    margin-left: auto;
+        margin-left: auto;
     margin-right: auto;
     z-index: 1;
+  }
+  #twitch .embed{
+    height: 75vh;
+    width: 100vw;
+  }
+  #twitch h1{
+    padding: 2%;
+    text-align:  center;
+  }
+  #twitch-embed{
+    height: 100%;
+    width: 100%;
+  }
+  @media screen and (max-width:767px){
+    #twitch .embed{
+      height: 90vh;
+    }
   }
 </style>
