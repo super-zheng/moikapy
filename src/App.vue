@@ -27,11 +27,14 @@ html,body,#app{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-image: url('./assets/fox.jpg');
+  color: #eee;
+  /* background-image: url('./assets/fox.jpg'); */
+  background-color: #222;
   background-position: center;
   background-size: cover;
 }
-
+#twitch h1{
+  padding: 2%;
+  text-align:  center;
+}
 </style>
