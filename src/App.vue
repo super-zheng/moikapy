@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <navbar />
-    <router-view />
-  </div>
+<div id="app">
+  <navbar />
+  <router-view />
+</div>
 </template>
 
 <script>
@@ -13,17 +13,21 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 import navbar from './components/navbar'
 export default {
   name: 'App',
-  components:{
+  components: {
     navbar
   }
 }
 </script>
 
 <style>
-html,body,#app{
+html,
+body,
+#app {
   height: 100%;
 }
-#app, #body {
+
+#app,
+#body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
