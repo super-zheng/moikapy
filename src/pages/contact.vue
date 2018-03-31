@@ -20,7 +20,7 @@
 
   <div id="contact" class="row float-right d-flex justify-content-around">
     <div class="justify-content-center">
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST" data-netlify="true" netlify>
         <div class="form-group row">
 
           <div>
