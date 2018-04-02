@@ -1,7 +1,6 @@
 <template>
   <div id='home'>
     <twitch />
-
   </div>
 </template>
 
@@ -22,7 +21,6 @@ import twitch from '../components/twitch'
         document.head.appendChild(ckeditor);
     }
   }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
