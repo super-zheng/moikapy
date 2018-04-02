@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import $ from "jquery";
+import $ from "jquery"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 

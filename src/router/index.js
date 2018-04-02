@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/pages/home'
-import contact from '@/pages/contact'
+import clips from '@/pages/clips'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
 			component: home
     },
 		{
-			path: '/contact',
-			name: 'contact',
-			component: contact
+			path: '/clips',
+			name: 'clips',
+			component: clips
 		}
   ]
 })
