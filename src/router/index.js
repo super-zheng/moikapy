@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/pages/home'
-import clips from '@/pages/clips'
+import resume from '@/pages/resume'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
 			component: home
     },
 		{
-			path: '/clips',
-			name: 'clips',
-			component: clips
+			path: '/resume',
+			name: 'resume',
+			component: resume
 		}
   ]
 })

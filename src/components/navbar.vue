@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark bg-222 d-flex">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-222 d-flex">
     <!-- Navbar content -->
     <a class="navbar-brand" href="/"><span title="Home">MOIKApy</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,10 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link disabled" href="/"><span title="Clips - Coming Soon">Clips</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="/"><span title="Videos - Coming Soon">Videos</span></a>
+          <a class="nav-link disabled" href="#/resume"><span title="Resume - Coming Soon">Resume</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.twitch.tv/moikapy" target="_blank"><span title="Twitch - Moikapy">Twitch</span></a>
