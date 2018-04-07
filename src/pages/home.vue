@@ -25,7 +25,8 @@ export default {
   #home{
     overflow:hidden;
     height: inherit;
-    /* background-image: url('../../static/homecover.png'); */
+    background-color: #222;
+    background-image: url('../../static/homecover.png');
     background-position: center;
     background-size: cover;
   }
