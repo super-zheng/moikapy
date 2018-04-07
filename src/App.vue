@@ -35,4 +35,8 @@ export default {
     background-position: center;
     background-size: cover;
   }
+  #home {
+    background-image: url('../static/homecover.png');
+  }
+
 </style>
