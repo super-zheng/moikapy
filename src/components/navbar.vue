@@ -8,10 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link disabled" href="/#/resume"><span title="Resume - Coming Soon">Resume</span></a>
+          <a class="nav-link" href="/#/resume"><span title="Resume - Coming Soon">Resume</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://www.twitch.tv/moikapy" target="_blank"><span title="Twitch - Moikapy">Twitch</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/Moikapy" target="_blank"><span title="GitHub - Moikapy">GitHub</span></a>
         </li>
       </ul>
     </div>
