@@ -29,7 +29,7 @@
     padding-top: 10vh;
   }
   .bg-color{
-    padding: 10%;
+    padding: 10% 10% 5%;
     background-color: indigo;
   }
   .profilePicture{

@@ -32,8 +32,6 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #eee;
-    /* background-image: url('./assets/fox.jpg'); */
-    background-color: #222;
     background-position: center;
     background-size: cover;
   }
