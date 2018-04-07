@@ -36,7 +36,7 @@ export default {
     background-size: cover;
   }
   #home {
-    background-image: url('../static/homecover.png');
+    /* background-image: url('../static/homecover.png'); */
   }
 
 </style>
