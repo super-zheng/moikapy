@@ -3,7 +3,7 @@ import Router from "vue-router";
 import home from "@/pages/home";
 import resume from "@/pages/resume";
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
 	routes: [
