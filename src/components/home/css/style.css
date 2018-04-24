@@ -1,0 +1,24 @@
+#home {
+  overflow: hidden;
+  height: inherit;
+  background-color: #222;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  padding-top: 10vh;
+}
+
+.bg-color {
+  padding: 10% 10% 5%;
+  background-color: indigo;
+}
+
+.profilePicture {
+  height: 25vh;
+}
+
+p {
+  padding-bottom: 0;
+}

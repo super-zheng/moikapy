@@ -15,8 +15,10 @@
     "@fortawesome/vue-fontawesome": "0.0.22",
     "bootstrap-vue": "^2.0.0-rc.6",
     "jquery": "^3.3.1",
+    "material-design-icons": "^3.0.1",
     "vue": "^2.5.2",
     "vue-awesome": "^2.3.5",
+    "vue-material": "^1.0.0-beta-7",
     "vue-pdf": "^3.2.2",
     "vue-router": "^3.0.1"
   },
