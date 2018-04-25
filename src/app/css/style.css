@@ -1,0 +1,20 @@
+html, body, #app {
+  height: 100%;
+}
+
+#app, #body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #eee;
+  background-position: center;
+  background-size: cover;
+}
+
+.md-app {
+  height: inherit;
+}
+
+.md-drawer {
+  width: 200px;
+}

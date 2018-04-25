@@ -1,13 +1,16 @@
 #home {
-  overflow: hidden;
-  height: inherit;
+  height: 100%;
   background-color: #222;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+}
+
+.md-content {
+  height: 100%;
 }
 
 .title {
-  padding-top: 10vh;
+  padding-top: 2.5vh;
 }
 
 .bg-color {
@@ -16,7 +19,7 @@
 }
 
 .profilePicture {
-  height: 25vh;
+  height: 50px;
 }
 
 p {
