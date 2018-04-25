@@ -1,6 +1,6 @@
-# moikapy
+# Moikapy - Warren Gates
 
-> A Resume - Portfolio - Twitch Page
+> My Resume - Portfolio - Twitch Site
 
 ## Build Setup
 
